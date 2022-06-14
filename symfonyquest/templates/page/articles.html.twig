@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {% endblock %}
+
+{% block body %}
+<section class = "carte">
+{% for articles in articles | slice(0,30) %}
+<div class="card" style="width: 18rem;">
+  <img src="{{('images/appa.jpg') }}" alt="appa"> <img/>
+  <div class="card-body">
+  <h2>{{articles.title}}</h2>
+    <p class="card-text">{{articles.content}}</p>
+  </div>
+</div>
+{% endfor %}
+</section>
+{% endblock %}
+
+   

@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(23, 213, 99);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+a {
+  height: 64px;
+}
+.corps {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.carte {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.nav-item {
+  margin: 15px;
+}
+nav {
+  position: sticky;
+}
